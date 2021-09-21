@@ -1,0 +1,15 @@
+ini link screenshot https://drive.google.com/drive/folders/1rNnxqlTHfMI439Aal365FclrDo5THEL-?usp=sharing
+
+https://github.com/rehannnnnn/tech4impact-students-bio.git
+
+Fork repository GitHub https://github.com/impactbyte/tech4impact-students-bio.git menggunakan akun Github kamu
+Clone remote repository dari hasil fork tersebut. Jangan clone dari repository originalnya. git clone https://github.com/impactbyte/tech4impact-students-bio.git
+Buatlah branch baru dengan nama lengkap kamu. Misalnya david-winalda. Jangan melakukan perubahan pada branch master. cd tech4impact-students-bio git branch zhaky
+Checkout ke dalam branch tersebut yang telah kamu buat git checkout zhaky
+Buatlah 1 file format .md dengan nama lengkap kamu. Contoh davidwinalda.md nano rianifitri.md
+Isi file tersebut davidwinalda.md dengan konten di bawah ini: Nama Lengkap: David Winalda Umur: 27 Pesan yang ingin disampaikan: Semangat untuk kamu yang disana sedang berjuang
+Masukkan file .md tersebut ke dalam staging area git add "zhaky.md"
+Commit dengan memberikan pesan nama file .md kamu git commit -m "zhaky.md"
+Merge branch yang telah kamu buat ke dalam branch master git checkout master git merge zhaky
+Push ke dalam branch master git push
+Lakukan pull request dari GitHub Repository yang telah kamu fork untuk digabungkan ke dalam branch master pada GitHub Repository aslinya. 
